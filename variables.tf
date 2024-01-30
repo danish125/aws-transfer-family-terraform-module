@@ -21,12 +21,14 @@ variable "enable_cloudtrail_events" {
 }
 variable "logging_role_name" {
   description = "name of the role used for allowing put events into trails"
+  default = ""
 }
 variable "region" {
   description = "aws region for cloudwatch log group"
 }
 variable "account_number" {
   description = "12 digit account number"
+  default = ""
 }
 variable "tags" {
   default = {}

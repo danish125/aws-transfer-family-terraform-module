@@ -5,9 +5,9 @@ module "sftp" {
   s3_bucket_arn = ""
   secret_arn = ""
   secret_id = ""
-  logging_role_name = ""
+#   logging_role_name = ""
   region = ""
-  account_number = ""
+#   account_number = ""
   tags = {
 
   }
